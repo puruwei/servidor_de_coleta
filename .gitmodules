@@ -1,0 +1,6 @@
+[submodule "submodules/rs_fingerprint_generator"]
+	path = submodules/rs_fingerprint_generator
+	url = https://github.com/AtosOmena/rs_fingerprint_generator.git
+[submodule "submodules/cpp_benchmark_generator"]
+	path = submodules/cpp_benchmark_generator
+	url = https://github.com/AtosOmena/cpp_benchmark_generator.git
