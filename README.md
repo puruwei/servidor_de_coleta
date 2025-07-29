@@ -12,11 +12,11 @@ Siga os passos abaixo para instalar e executar o projeto localmente:
 
 1. Clone este repositório:
    ```bash
-   git clone link/do/git
+   git clone https://github.com/puruwei/servidor_de_coleta.git
 
 2. Acesse o diretorio do projeto:
    ```bash
-   cd fingerprint_server
+   cd servidor_de_coleta
 
 3. Instale as dependencias do projeto com NPM:
    ```bash
