@@ -31,7 +31,7 @@ Dado que o projeto visa executar módulos de outras linguagens em WebAssembly, s
 ### Criando módulos:
 Códigos de diferentes linguagens podem ser implementados a fim de serem utilizados como módulos WASM. Para fins deste projeto foram adotadas algumas políticas de implementação para permitir a fácil substituição e edição destes módulos:
 1. Os módulos que devem ser compilados em WASM para este projeto devem conter suas implementações no GitHub
-2. Cada módulo deve disponibilizar o comando `make build`, que pode, opcionalmente, receber como parâmetro o diretório de destino da compilação (*target*). Essa política foi adotada com o objetivo de facilitar a compilação automatizada do projeto principal por meio do comando `make build_submodules`, o qual percorre a pasta `/submodules`, iterando sobre todos os módulos e executando `make build` com o diretório `./public/modules` como destino da compilação.
+2. Cada módulo deve disponibilizar o comando `make build`, que pode, opcionalmente, receber como parâmetro o diretório de destino da compilação (*target*). Essa política foi adotada com o objetivo de facilitar a compilação automatizada do projeto principal por meio do comando (na raiz do projeto) `make build_submodules`, o qual percorre a pasta `/submodules`, iterando sobre todos os módulos e executando `make build` com o diretório `./public/modules` como destino da compilação.
 3. Para importar um novo git de umm submódulo basta usar o comando `git submodule add 'link para o submódulo'`
 4. Os módulos devem conter uma função para coleta de dados que retorne uma string com os dados no formato json.
 
