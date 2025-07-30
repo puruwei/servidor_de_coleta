@@ -22,7 +22,7 @@ Siga os passos abaixo para instalar e executar o projeto localmente:
    ```bash
    npm install
 
-4. A depender das dependencias que estiver usando neste projeto, voce pode precisar instalar compiladores e gerenciadores de pacote de outras linguagens
+4. A depender das dependencias que estiver usando neste projeto, voce pode precisar instalar compiladores e gerenciadores de pacote de outras linguagens. (ex. rs_fingerprint_generator precisa do cargo (gerenciador de pacotes) e rustc (compilador)).
 
 ## Uso
 Dado que o projeto visa executar módulos de outras linguagens em WebAssembly, siga os passos a seguir para criar, personalizar e utilizar módulos compatíveis
