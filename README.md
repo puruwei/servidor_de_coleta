@@ -13,6 +13,7 @@ Siga os passos abaixo para instalar e executar o projeto localmente:
 1. Clone este repositório:
    ```bash
    git clone https://github.com/puruwei/servidor_de_coleta.git
+   git submodule update --init --recursive
 
 2. Acesse o diretorio do projeto:
    ```bash
